@@ -1,0 +1,30 @@
+.banner {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100vw;
+    background-color: $black-primary;
+    white-space: nowrap;
+
+    &--text {
+        position: absolute;
+        left: 100vw;
+        font-size: 2.4rem;
+        line-height: 1.7;
+        text-transform: uppercase;
+        padding: 0 1rem;
+        color: $plum;
+        transform: translateX(0%);
+        padding-right: 20rem;
+        animation: moveLeft 17s linear .25s infinite;
+        @keyframes moveLeft {
+            0% {
+                transform: translateX(0%);
+            }
+        
+            100% {
+                transform: translateX(calc(-100% - 100vw));
+            }
+        }
+    }
+}

@@ -1,5 +1,5 @@
 .banner {
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     min-width: 100vw;
@@ -16,7 +16,7 @@
         color: $plum;
         transform: translateX(0%);
         padding-right: 20rem;
-        animation: moveLeft 17s linear .25s infinite;
+        animation: moveLeft 21s linear .25s infinite;
         @keyframes moveLeft {
             0% {
                 transform: translateX(0%);

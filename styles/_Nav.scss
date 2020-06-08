@@ -1,0 +1,15 @@
+.nav {
+  &--burger {
+    max-width: 8rem;
+    svg {
+      fill-rule: evenodd;
+      clip-rule: evenodd;
+      stroke-linejoin: round;
+      stroke-miterlimit: 2;
+
+      rect {
+        fill: #fff;
+      }
+    }
+  }
+}
